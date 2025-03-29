@@ -1,0 +1,47 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+---
+
+<Layout>
+  <Header />
+  <main id="main-content" data-layout="index">
+    <section id="hero" class="pt-8 pb-6">
+      <div class="flex flex-col md:flex-row">
+        <img
+          src="/me.jpg"
+          alt="avatar"
+          class="mx-auto mb-4 h-full w-84 md:mx-0 md:mr-5 md:mb-0"
+        />
+        <p class="text-center md:text-left">
+          Hey, <b>I'm Leonel Dias 👋🏼</b><br /><br />
+
+          Born a few decades ago, I’m passionate about solving real-world
+          problems through geospatial technology and web tools. <br /><br />
+
+          Right now, I'm leading innovative projects at APDL, where we create
+          smarter ways to manage ports and waterways. I operate at the
+          intersection of project management, software development and GIS. I
+          focus on turning complex challenges of port operations into actionable
+          solutions. <br /><br />
+
+          I'm also a strong advocate for open-source software and the power of
+          community-driven projects.
+        </p>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const indexLayout = (document.querySelector("#main-content") as HTMLElement)
+      ?.dataset?.layout;
+    if (indexLayout) {
+      sessionStorage.setItem("backUrl", "/");
+    }
+  });
+</script>
