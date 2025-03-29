@@ -12,6 +12,9 @@
     "format": "prettier --write .",
     "lint": "eslint ."
   },
+  "engines": {
+  "pnpm": ">=7.1.0"
+}
   "dependencies": {
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.2.1",
