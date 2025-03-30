@@ -5,7 +5,7 @@ export const SITE = {
   desc: "A software engineer who loves to write about web development, technology, and life",
   title: "leoneljdias",
   ogImage: "me.jpg",
-  lightAndDarkMode: true,
+  lightAndDarkMode: false,
   postPerIndex: 4,
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
