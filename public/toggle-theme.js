@@ -1,4 +1,4 @@
-const primaryColorScheme = ""; // "light" | "dark"
+const primaryColorScheme = "light"; // "light" | "dark"
 
 // Get theme data from local storage
 const currentTheme = localStorage.getItem("theme");
@@ -10,6 +10,8 @@ function getPreferTheme() {
   // return primary color scheme if it is set
   if (primaryColorScheme) return primaryColorScheme;
 
+  return 'light'; // default value
+  
   // return user device's prefer color scheme
   return window.matchMedia("(prefers-color-scheme: dark)").matches
     ? "dark"
@@ -68,9 +70,9 @@ window.onload = () => {
 };
 
 // sync with system changes
-window
+/*window
   .matchMedia("(prefers-color-scheme: dark)")
   .addEventListener("change", ({ matches: isDark }) => {
     themeValue = isDark ? "dark" : "light";
     setPreference();
-  });
+  });*/
