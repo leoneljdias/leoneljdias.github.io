@@ -75,10 +75,35 @@ export default async () => {
                         },
                         children: [
                           {
-                            type: "p",
+                            type: "div",
                             props: {
-                              style: { fontSize: 72, fontWeight: "bold" },
-                              children: SITE.title,
+                              style: {
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center",
+                              },
+                              children: [
+                                {
+                                  type: "img",
+                                  props: {
+                                    src: "/og.png",
+                                    alt: "Logo",
+                                    style: {
+                                      width: "72px",
+                                      height: "72px",
+                                      borderRadius: "50%",
+                                      marginRight: "16px",
+                                    },
+                                  },
+                                },
+                                {
+                                  type: "p",
+                                  props: {
+                                    style: { fontSize: 72, fontWeight: "bold" },
+                                    children: SITE.title,
+                                  },
+                                },
+                              ],
                             },
                           },
                           {
