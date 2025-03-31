@@ -86,7 +86,7 @@ export default async () => {
                                 {
                                   type: "img",
                                   props: {
-                                    src: "/og.png",
+                                    src: "https://leoneljdias.github.io/me.png",
                                     alt: "Logo",
                                     style: {
                                       width: "72px",
