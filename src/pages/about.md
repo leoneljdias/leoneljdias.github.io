@@ -9,7 +9,7 @@ My career has been a journey of building, optimizing, and modernizing digital sy
 
 Between 2013 and 2024, at 3Maps, I led the development and modernization of web systems for municipalities, regional governments, and ports, ensuring these infrastructures became more efficient, scalable, and future-proof.  
 
-Today, I lead projects at APDL, where we’re transforming port management through smarter digital solutions. My work is a balance between software development and project management, always with a clear goal: simplifying complexity and delivering results. Whether optimizing geospatial data, improving real-time tracking, or integrating systems, I focus on building solutions that are both innovative and practical. Technology should empower, not complicate.  
+Today, I'm working on projects at APDL, where we’re transforming port management through smarter digital solutions. My work is a balance between software development and project management, always with a clear goal: simplifying complexity and delivering results. Whether optimizing geospatial data, improving real-time tracking, or integrating systems, I focus on building solutions that are both innovative and practical. Technology should empower, not complicate.  
 
 Beyond work, I see myself as a multidisciplinary and proactive person, always looking for ways to grow and create. If I’m not immersed in a project, I’m probably reading, writing, or enjoying the sea breeze on a walk by the shore.  
 
